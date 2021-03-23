@@ -9,25 +9,53 @@ body {
 }
 
 nav {
-    border-bottom: 1px solid #bdbdbd;
+    /* border-bottom: 1px solid #bdbdbd; */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 0 0 1px #bdbdbd;
 }
 
-.nav-button {
+.nav-icons {
     border: none;
     background-color: #fff;
     font-size: 20px;
     padding: 20px;
 }
 
-.nav-text { 
+.nav-icons a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-link {
     font-size: 15px;
+    color: #000;
+    text-decoration: none;
 }
 
-.buttons { 
-    float: left;
+.section-1 {
     width: 20%;
+    float: left;
+    padding-right: 25%;
 }
 
-.nav-details {
-    width: 30%;
+.nav-logo {
+    padding-top: 20px;
+}
+
+.section-2 {
+    /* padding-top: -20px; */
+    top: 0;
+    float: right;
+}
+
+.section-2 button {
+    background: rgb(86, 123, 149);
+    color: white;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 3px;
+    font-weight: 700;
+    height: 30px;
 }
