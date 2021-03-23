@@ -19,7 +19,7 @@ nav {
     border: none;
     background-color: #fff;
     font-size: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .nav-icons a {
@@ -33,6 +33,10 @@ nav {
     text-decoration: none;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
+
 .section-1 {
     width: 20%;
     float: left;
@@ -40,13 +44,14 @@ nav {
 }
 
 .nav-logo {
-    padding-top: 20px;
+    padding-top: 10px;
     float: left;
 }
 
 .section-2 {
     float: right;
-    margin-top: 20px
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 .section-2 button {
