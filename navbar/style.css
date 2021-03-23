@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-    border-bottom: 1px solid #868686;
+    border-bottom: 1px solid #bdbdbd;
 }
 
 .nav-button {
@@ -17,4 +17,17 @@ nav {
     background-color: #fff;
     font-size: 20px;
     padding: 20px;
+}
+
+.nav-text { 
+    font-size: 15px;
+}
+
+.buttons { 
+    float: left;
+    width: 20%;
+}
+
+.nav-details {
+    width: 30%;
 }
