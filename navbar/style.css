@@ -63,3 +63,38 @@ nav {
     font-weight: 700;
     height: 30px;
 }
+
+.image-section {
+    margin: 100px auto;
+    width: 70%;
+}
+
+.image-section h1 {
+    text-align: center;
+    border-bottom: 1px solid #bdbdbd;
+    margin-bottom: 10px;
+}
+
+.image-section figure {
+    margin-top: 20px;
+}
+
+.image-section figure img {
+    width: 100%;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #000;
+    border: none;
+    background-color: #bdbdbd;
+    border-radius: 50%;
+    padding: 3px;
+    text-align: center;
+    margin-right: 5px;
+    
+}
