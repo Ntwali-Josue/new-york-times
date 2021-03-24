@@ -13,6 +13,7 @@ nav {
     width: 100%;
     top: 0;
     box-shadow: 0 0 0 1px #bdbdbd;
+    background-color: #fff;
 }
 
 .nav-icons {
@@ -71,7 +72,7 @@ nav {
 
 .image-section h1 {
     text-align: center;
-    border-bottom: 1px solid #bdbdbd;
+    /* border-bottom: 1px solid #bdbdbd; */
     margin-bottom: 10px;
 }
 
@@ -83,7 +84,7 @@ nav {
     width: 100%;
 }
 
-.icons {
+.image-section span {
     text-align: center;
 }
 
@@ -94,7 +95,134 @@ nav {
     background-color: #bdbdbd;
     border-radius: 50%;
     padding: 3px;
-    text-align: center;
     margin-right: 5px;
-    
+}
+
+
+.descr {
+    padding-right: 70px;
+    color: rgb(102, 102, 102);
+}
+
+.author-info {
+    display: grid;
+    margin: 0 auto;
+    align-items: center;
+    width: 600px;
+    /* padding-left:40rem; */
+}
+
+.author-info h3 {
+    width: 100%;
+    color: black;
+}
+
+.deniss {
+    color: black;
+}
+
+.get-me {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 600px;
+    /* padding-left:40rem; */
+
+}
+
+.social-medias {
+    justify-content: space-between;
+    padding-left: 10rem;
+}
+
+.comments {
+    border: none;
+    background: white;
+}
+
+.article {
+    display: grid;
+    margin: 0 auto;
+    align-items: center;
+    width: 600px;
+}
+
+.article-paragraphs {
+    font-family: imperial;
+    font-size: 22px;
+    /* padding:0 30px; */
+}
+
+.request-account {
+    text-align: center;
+}
+
+.inflation {
+    font-family: cheltenham;
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.inflation-items {
+    width: 25%;
+    float: left;
+    font-size: 14px;
+    /* padding-right:1%; */
+}
+
+.inflaton h2 {
+    color: black;
+}
+
+.text-black {
+    color: black
+}
+
+.article h2 {
+    color: black
+}
+
+.telescope {
+    width: 100%;
+}
+
+.telescope-paragraph {
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+}
+
+footer {
+    margin: 0 auto;
+    width: 1300px;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.links li {
+    list-style-type: none;
+}
+
+.news {
+    padding: 0;
+    margin: 0;
+    width: 20%;
+}
+
+.news li {
+    color: black;
+    list-style: none;
+}
+
+.opinions {
+    width: 20%;
+}
+
+.subscribe {
+    list-style-type: none;
 }
