@@ -215,13 +215,32 @@ nav {
   margin-right: 30px;
 }
 
+.links li {
+  list-style-type: none;
+}
+
+.news li {
+  color: black;
+  list-style: none;
+}
+
 .container-2 ul li {
   list-style: none;
+}
+
+.news li a {
+  text-decoration: none;
+  color: #000;
 }
 
 .container-2 ul li a {
   color: #000;
   text-decoration: none;
+}
+
+.opinions ul li a {
+  text-decoration: none;
+  color: #000;
 }
 
 .container-2 ul li a:hover {
@@ -249,28 +268,9 @@ footer {
   color: black;
 }
 
-.links li {
-  list-style-type: none;
-}
-
 .news {
   padding: 0;
   margin: 0;
-}
-
-.news li {
-  color: black;
-  list-style: none;
-}
-
-.news li a {
-  text-decoration: none;
-  color: #000;
-}
-
-.opinions ul li a {
-  text-decoration: none;
-  color: #000;
 }
 
 .arts ul li a {
