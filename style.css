@@ -215,6 +215,19 @@ nav {
   margin-right: 30px;
 }
 
+.container-2 ul li {
+  list-style: none;
+}
+
+.container-2 ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.container-2 ul li a:hover {
+  text-decoration: underline;
+}
+
 footer {
   margin: 0 auto;
   width: 1300px;
