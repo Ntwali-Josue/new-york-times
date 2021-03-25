@@ -243,6 +243,30 @@ nav {
   color: #000;
 }
 
+.arts ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.living ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.more ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.subscribe ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.news li a:hover {
+  text-decoration: underline;
+}
+
 .container-2 ul li a:hover {
   text-decoration: underline;
 }
@@ -271,30 +295,6 @@ footer {
 .news {
   padding: 0;
   margin: 0;
-}
-
-.arts ul li a {
-  color: #000;
-  text-decoration: none;
-}
-
-.living ul li a {
-  color: #000;
-  text-decoration: none;
-}
-
-.more ul li a {
-  color: #000;
-  text-decoration: none;
-}
-
-.subscribe ul li a {
-  color: #000;
-  text-decoration: none;
-}
-
-.news li a:hover {
-  text-decoration: underline;
 }
 
 .opinions {
