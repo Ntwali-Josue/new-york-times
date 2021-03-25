@@ -130,11 +130,6 @@ nav {
   width: 600px;
 }
 
-.social-medias {
-  justify-content: space-between;
-  padding-left: 10rem;
-}
-
 .comments {
   border: none;
   background: white;
@@ -213,7 +208,6 @@ footer {
 .news {
   padding: 0;
   margin: 0;
-  width: 20%;
 }
 
 .news li {
@@ -221,10 +215,45 @@ footer {
   list-style: none;
 }
 
-.opinions {
-  width: 20%;
+.news li a {
+  text-decoration: none;
+  color: #000;
 }
 
-.subscribe {
-  list-style-type: none;
+.opinions ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.arts ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.living ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.more ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.subscribe ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.news li a:hover {
+  text-decoration: underline;
+}
+
+.opinions {
+  padding: 0;
+  margin: 0;
+}
+
+.opinions ul li a:hover {
+  text-decoration: underline;
 }
