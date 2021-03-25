@@ -196,6 +196,7 @@ nav {
 .container-1 {
   margin-left: 70px;
   width: 1000px;
+  float: left;
 }
 
 .container-1 h3 {
@@ -206,6 +207,12 @@ nav {
   width: 300px;
   float: left;
   padding: 10px;
+}
+
+.container-2 {
+  width: 300px;
+  float: right;
+  margin-right: 30px;
 }
 
 footer {
