@@ -185,15 +185,28 @@ nav {
 }
 
 .telescope-paragraph {
-  color: rgb(102, 102, 102);
+  color: #666666;
   font-size: 20px;
 }
 
 .container-1 {
-  margin: 0 auto;
+  margin-left: 70px;
   width: 1000px;
 }
 
+.container-1 h3 {
+  padding: 0 10px;
+}
+
+.cont-images {
+  width: 300px;
+  float: left;
+  padding: 10px;
+}
+
+.cont-images img {
+  width: 100%;
+}
 
 footer {
   margin: 0 auto;
