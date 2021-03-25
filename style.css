@@ -228,6 +228,15 @@ nav {
   text-decoration: underline;
 }
 
+.editors h3 {
+  padding: 0 10px;
+}
+
+.editors hr {
+  width: 97%;
+  margin: 0 10px;
+}
+
 footer {
   margin: 0 auto;
   width: 1300px;
