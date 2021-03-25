@@ -228,6 +228,10 @@ nav {
   list-style: none;
 }
 
+.home-page a {
+  text-decoration: none;
+}
+
 .news li a {
   text-decoration: none;
   color: #000;
@@ -261,6 +265,10 @@ nav {
 .subscribe ul li a {
   color: #000;
   text-decoration: none;
+}
+
+.home-page a:hover {
+  text-decoration: underline;
 }
 
 .news li a:hover {
@@ -304,4 +312,13 @@ footer {
 
 .opinions ul li a:hover {
   text-decoration: underline;
+}
+
+.new-times {
+  float: left;
+}
+
+.home-page {
+  float: right;
+  color: #0d59afad;
 }
