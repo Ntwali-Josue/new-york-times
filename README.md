@@ -2,7 +2,11 @@
 
 # New York Times
 
-> This is a clone of the new york times page.
+> This repo designs the replica new york times clone layout 
+
+#Screenshot
+<img width="1440" alt="Screen Shot 2021-03-26 at 17 17 37" src="https://user-images.githubusercontent.com/58233753/112654451-15dcf300-8e58-11eb-8a02-84b731a516ba.png">
+
 
 ## Built With
 
@@ -15,7 +19,7 @@
 
 - GitHub: [@ntwali-josue](https://github.com/Ntwali-Josue)
 - Twitter: [@JosueNtwali](https://twitter.com/JosueNtwali)
-- LinkedIn: [karangwa](https://linkedin.com/karangwa/)
+- LinkedIn: [karangwa](https://www.linkedin.com/in/karangwa/)
 
 
 ## 🤝 Contributing
