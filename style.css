@@ -226,6 +226,7 @@ nav {
 
 .container-2 ul li {
   list-style: none;
+  padding-bottom: 10px;
 }
 
 .home-page a {
