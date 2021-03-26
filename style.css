@@ -87,6 +87,10 @@ nav {
   width: 100%;
 }
 
+form span {
+  font-size: 24px;
+}
+
 .image-section span {
   text-align: center;
 }
@@ -316,11 +320,6 @@ form {
   width: 250px;
   padding: 10px;
   border: none;
-}
-
-form span { 
-  font-size: 24px;
-  
 }
 
 #submit {
