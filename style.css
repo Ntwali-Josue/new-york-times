@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 0 0 1px #bdbdbd;
+  background-color: #fff;
+}
+
+.nav-icons {
+  border: none;
+  background-color: #fff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.nav-icons a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link {
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.section-1 {
+  width: 20%;
+  float: left;
+  padding-right: 25%;
+}
+
+.nav-logo {
+  padding-top: 10px;
+  float: left;
+}
+
+.section-2 {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.section-2 button {
+  background: rgb(86, 123, 149);
+  color: white;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 3px;
+  font-weight: 700;
+  height: 30px;
+}
+
+.image-section {
+  margin: 100px auto;
+  width: 70%;
+}
+
+.image-section h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.image-section figure {
+  margin-top: 20px;
+}
+
+.cont-images img {
+  width: 100%;
+}
+
+.image-section figure img {
+  width: 100%;
+}
+
+.image-section span {
+  text-align: center;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #000;
+  border: none;
+  background-color: #bdbdbd;
+  border-radius: 50%;
+  padding: 3px;
+  margin-right: 5px;
+}
+
+.descr {
+  padding-right: 70px;
+  color: rgb(102, 102, 102);
+}
+
+.author-info {
+  display: grid;
+  margin: 0 auto;
+  align-items: center;
+  width: 600px;
+}
+
+.author-info h3 {
+  width: 100%;
+  color: black;
+}
+
+.deniss {
+  color: black;
+  text-decoration: none;
+}
+
+.deniss:hover {
+  text-decoration: underline;
+}
+
+.get-me {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  width: 600px;
+}
+
+.comments {
+  border: none;
+  background: white;
+}
+
+.article {
+  display: grid;
+  margin: 0 auto;
+  align-items: center;
+  width: 600px;
+}
+
+.article-paragraphs {
+  font-size: 22px;
+}
+
+.request-account {
+  text-align: center;
+}
+
+.inflation {
+  width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.inflation-items {
+  width: 250px;
+  float: left;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.inflaton h2 {
+  color: black;
+}
+
+.text-black {
+  color: black;
+}
+
+.article h2 {
+  color: black;
+}
+
+.telescope {
+  width: 100%;
+}
+
+.telescope-paragraph {
+  color: #666;
+  font-size: 20px;
+}
+
+.container-1 {
+  margin-left: 70px;
+  width: 1000px;
+  float: left;
+}
+
+.container-1 h3 {
+  padding: 0 10px;
+}
+
+.cont-images {
+  width: 310px;
+  float: left;
+  padding: 10px;
+}
+
+.container-2 {
+  width: 300px;
+  float: right;
+  margin-right: 30px;
+}
+
+.links li {
+  list-style-type: none;
+}
+
+.news li {
+  color: black;
+  list-style: none;
+}
+
+.container-2 ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.home-page a {
+  text-decoration: none;
+}
+
+.news li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container-2 ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.opinions ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.arts ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.living ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.more ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.subscribe ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.home-page a:hover {
+  text-decoration: underline;
+}
+
+.news li a:hover {
+  text-decoration: underline;
+}
+
+.container-2 ul li a:hover {
+  text-decoration: underline;
+}
+
+.editors h3 {
+  padding: 0 10px;
+}
+
+.editors hr {
+  width: 97%;
+  margin: 0 10px;
+}
+
+footer {
+  margin: 0 auto;
+  width: 1300px;
+  padding: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.news {
+  padding: 0;
+  margin: 0;
+}
+
+.opinions {
+  padding: 0;
+  margin: 0;
+}
+
+.opinions ul li a:hover {
+  text-decoration: underline;
+}
+
+.new-times {
+  float: left;
+}
+
+.home-page {
+  float: right;
+  color: #0d59afad;
+}
