@@ -87,6 +87,10 @@ nav {
   width: 100%;
 }
 
+form span {
+  font-size: 24px;
+}
+
 .image-section span {
   text-align: center;
 }
@@ -287,6 +291,47 @@ nav {
 .editors hr {
   width: 97%;
   margin: 0 10px;
+}
+
+.form fieldset {
+  width: 800px;
+  margin: auto;
+}
+
+form {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+#username {
+  width: 250px;
+  padding: 10px;
+  border: none;
+}
+
+#email {
+  width: 250px;
+  padding: 10px;
+  border: none;
+}
+
+#message {
+  width: 250px;
+  padding: 10px;
+  border: none;
+}
+
+#submit {
+  width: 150px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#submit:hover {
+  text-decoration: underline;
 }
 
 footer {
